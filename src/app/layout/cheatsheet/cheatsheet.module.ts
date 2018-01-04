@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { CheatsheetRoutingModule } from './cheatsheets-routing.module';
-import { CheatsheetComponent } from './cheatsheets.component';
+import { CheatsheetRoutingModule } from './cheatsheet-routing.module';
+import { CheatsheetComponent } from './cheatsheet.component';
 import { PageHeaderModule } from './../../shared';
 
 @NgModule({

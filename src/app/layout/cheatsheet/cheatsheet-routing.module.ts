@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { CheatsheetComponent } from './cheatsheets.component';
+import { CheatsheetComponent } from './cheatsheet.component';
 
 const routes: Routes = [
     {
