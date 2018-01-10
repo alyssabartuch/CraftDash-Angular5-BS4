@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { GridComponent } from './grid.component';
+import { WebResourcesComponent } from './web-resources.component';
 
 const routes: Routes = [
     {
-        path: '', component: GridComponent
+        path: '', component: WebResourcesComponent
     }
 ];
 
@@ -12,4 +12,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class GridRoutingModule { }
+export class WebResourcesRoutingModule { }

@@ -119,12 +119,7 @@ export class BsElementComponent implements OnInit {
         }
 
 
-        filter() {
-
-            let storeId = 1;
-                this.bookFilteredList = this.bookList.filter((book: Book) => book.storeId === storeId);
-    this.bookList = this.bookFilteredList;
-}
+        
 
 
 
