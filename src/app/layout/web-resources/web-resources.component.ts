@@ -13,19 +13,19 @@ export class WebResourcesComponent implements OnInit {
     webResources = [
       {
         title: 'ravelry',
-        subtitle: 'Ravelry is a community site, an organizational tool, and a yarn & pattern database for knitters and crocheters.'
+        subtitle: 'Ravelry is a community site, an organizational tool, and a yarn & pattern database for knitters and crocheters.',
         webAddress: 'https://www.ravelry.com/',
         img: 'https://style-cdn.ravelrycache.com/images/splash/ravelry-logo-81r-300x.png'
       },
 
       {title: 'craftsy',
-      subtitle: 'Lets make something together: kits, supplies, tutorials and endless inspiration for quilting, knitting, cakes, sewing, cooking, fine art and more.'
+      subtitle: 'Lets make something together: kits, supplies, tutorials and endless inspiration for quilting, knitting, cakes, sewing, cooking, fine art and more.',
       webAddress: 'https://www.ravelry.com/',
       img: 'http://d1a6t1943usoj7.cloudfront.net/v1/096818e6-a6d0-4def-ae42-928e125fc699/large/1474658761910-craftsy_final_wordmark_logo.png'
       },
 
       {title: 'knitpicks',
-      subtitle: 'Carefully selected luxury yarn, knitting supplies, needles, patterns & books. Free shipping. Complete hand knitting resource.'
+      subtitle: 'Carefully selected luxury yarn, knitting supplies, needles, patterns & books. Free shipping. Complete hand knitting resource.',
       webAddress: 'https://www.knitpicks.com/',
       img: 'http://img2.everafterguide.net/W7LpKz-R65vRZI0U_um86WNOIVQ=/0x200/logos/knitpicks.com.png'
       },
@@ -52,4 +52,5 @@ export class WebResourcesComponent implements OnInit {
 
 
     ngOnInit() {}
+
 }
