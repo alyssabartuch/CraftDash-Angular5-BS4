@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { WebResourcesRoutingModule } from './web-resources-routing.module';
 import { WebResourcesComponent } from './web-resources.component';
@@ -11,11 +12,14 @@ import { PageHeaderModule } from './../../shared';
     imports: [
         CommonModule,
         WebResourcesRoutingModule,
+        NgbModule.forRoot(),
         PageHeaderModule
     ],
     declarations: [
         WebResourcesComponent,
-        ModalComponent
+        ModalComponent,
+
+
     ]
 })
 export class WebResourcesModule {}
