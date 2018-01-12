@@ -4,7 +4,7 @@
 
             <!-- Large modal -->
             <div class="card-body">
-                <button class="btn btn-primary" (click)="open(content)"><i class="fa fa-plus-square"></i> Add New Resource</button>
+                <button class="btn btn-primary btn-lg btn-block" (click)="open(content)"><i class="fa fa-plus-square"></i> Add New Resource</button>
                 <ng-template #content let-c="close" let-d="dismiss">
                     <div class="modal-header">
                         <h4 class="modal-title">Add a new web resource</h4>
@@ -15,24 +15,23 @@
                     <div class="modal-body">
 
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-lg-12">
 
                                 <form role="form">
                                     <fieldset class="form-group">
                                         <label>Name</label>
-                                        <input class="form-control">
+                                        <input class="form-control" placeholder="etsy">
                                         <p class="help-block"></p>
                                     </fieldset>
 
                                     <fieldset class="form-group">
                                         <label>Description</label>
-                                        <textarea class="form-control" rows="3"></textarea>
+                                        <textarea class="form-control" rows="3" placeholder="Find handmade, vintage, and unique goods that express who you are."></textarea>
                                     </fieldset>
 
                                     <fieldset class="form-group">
                                         <label>Web Address</label>
-                                        <input class="form-control">
-                                        <p class="help-block">https://www...</p>
+                                        <input class="form-control" placeholder="https://www.etsy.com/">
                                     </fieldset>
 
                                     <fieldset class="form-group">
@@ -42,7 +41,7 @@
 
 
 
-                                    <button type="submit" class="btn btn-secondary">Submit Button</button>
+                                    <button type="submit" class="btn btn-primary">Submit Button</button>
                                     <button type="reset" class="btn btn-secondary">Reset Button</button>
 
                                 </form>

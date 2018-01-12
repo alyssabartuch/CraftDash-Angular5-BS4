@@ -20,7 +20,7 @@ export class WebResourcesComponent implements OnInit {
 
       {title: 'craftsy',
       subtitle: 'Lets make something together: kits, supplies, tutorials and endless inspiration for quilting, knitting, cakes, sewing, cooking, fine art and more.',
-      webAddress: 'https://www.ravelry.com/',
+      webAddress: 'https://www.craftsy.com/',
       img: 'http://d1a6t1943usoj7.cloudfront.net/v1/096818e6-a6d0-4def-ae42-928e125fc699/large/1474658761910-craftsy_final_wordmark_logo.png'
       },
 
