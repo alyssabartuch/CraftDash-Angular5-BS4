@@ -10,6 +10,13 @@ import { routerTransition } from '../../router.animations';
 export class WebResourcesComponent implements OnInit {
     constructor() {}
 
+    webResourceForm = {
+        title: '',
+        subtitle: '',
+        webAddress: '',
+        img: ''
+    };
+
     webResources = [
       {
         title: 'ravelry',
@@ -52,5 +59,9 @@ export class WebResourcesComponent implements OnInit {
 
 
     ngOnInit() {}
+
+    formSubmit() {
+
+    }
 
 }

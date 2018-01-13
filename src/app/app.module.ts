@@ -9,6 +9,8 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AuthGuard } from './shared';
+import { WebResourceForm } from './web-resource-form.component/web-resource-form.component.component';
+import { WebResourceFormComponent } from './web-resource-form/web-resource-form.component';
 
 // AoT requires an exported function for factories
 export function createTranslateLoader(http: HttpClient) {
@@ -32,7 +34,7 @@ export function createTranslateLoader(http: HttpClient) {
         }),
         AppRoutingModule
     ],
-    declarations: [AppComponent],
+    declarations: [AppComponent, WebResourceForm.ComponentComponent, WebResourceFormComponent],
     providers: [AuthGuard],
     bootstrap: [AppComponent]
 })
