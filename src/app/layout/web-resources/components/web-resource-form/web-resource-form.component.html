@@ -1,26 +1,26 @@
 <div class="container">
     <div [hidden]="submitted">
 
-        <form (ngSubmit)="onSubmit()" #webResourceForm="ngForm">
+        <form #webResourceForm="ngForm" (ngSubmit)="onSubmit()">
 
             <fieldset class="form-group">
                 <label for="title">title</label>
                 <input class="form-control" id="title"
                required
                [(ngModel)]="model.title" name="title"
-               #title="ngModel" placeholder="{{ defaultModel.title }}">
+               placeholder="{{ defaultModel.title }}">
             </fieldset>
 
             <fieldset class="form-group">
                 <label for="subtitle">Description</label>
                 <textarea class="form-control" rows="3" id="subtitle" required [(ngModel)]="model.subtitle" name="subtitle"
-                #subtitle="ngModel" placeholder="{{ defaultModel.subtitle }}"></textarea>
+                 placeholder="{{ defaultModel.subtitle }}"></textarea>
             </fieldset>
 
             <fieldset class="form-group">
                 <label for="webAddress">Web Address</label>
                 <input class="form-control" id="webAddress" required [(ngModel)]="model.webAddress" name="webAddress"
-                #webAddress="ngModel" placeholder="{{ defaultModel.webAddress }}">
+                placeholder="{{ defaultModel.webAddress }}">
             </fieldset>
 
             <fieldset class="form-group">

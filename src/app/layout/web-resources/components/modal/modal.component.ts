@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule }   from '@angular/forms';
 
+
 @Component({
     selector: 'app-modal',
     templateUrl: './modal.component.html',

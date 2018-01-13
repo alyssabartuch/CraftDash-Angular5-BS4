@@ -6,6 +6,8 @@ import { WebResourcesRoutingModule } from './web-resources-routing.module';
 import { WebResourcesComponent } from './web-resources.component';
 
 import {ModalComponent} from './components';
+import { WebResourceFormComponent } from './web-resource-form.component';
+
 import { PageHeaderModule } from './../../shared';
 
 @NgModule({
@@ -18,7 +20,7 @@ import { PageHeaderModule } from './../../shared';
     declarations: [
         WebResourcesComponent,
         ModalComponent,
-
+        WebResourceFormComponent
 
     ]
 })
