@@ -4,7 +4,7 @@
 
     <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
       <div class="btn-group" role="group" aria-label="First group">
-        <button type="button" class="btn btn-secondary" *ngFor="let typeOption of filter.type.options" (click)="setTypeOption(typeOption)">{{ typeOption }}</button>
+        <button type="button" class="btn btn-secondary" *ngFor="let typeOption of filter.type.options" (click)="filterClick(typeOption)">{{ typeOption }}</button>
       </div>
       <div class="input-group">
         <span class="input-group-addon btn-primary" id="btnGroupAddon2">Search</span>
@@ -19,7 +19,7 @@
     <div class="row">
 
         <div class="col-sm-4" *ngFor="let patternCard of patternCards">
-            <div class="card text-white mb-3">
+            <div class="card text-white mb-3" *ngIf="patternCard.visible">
                 <img class="card-img-top" [src]="patternCard.thumbnail" alt="Card image cap">
                 <div class="card-block">
                     <h4 class="card-title">{{ patternCard.title }} - {{ patternCard.type }}</h4>

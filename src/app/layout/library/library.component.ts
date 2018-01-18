@@ -16,84 +16,96 @@ export class LibraryComponent implements OnInit {
         title: "Header",
         thumbnail: "https://d1a6t1943usoj7.cloudfront.net/v1/1a01ab15-bd66-4578-824a-cd3741daaa1e/medium/1470696788032-knitting_yarn_20160722_002_null.jpg",
         subtitle: "Primary card title",
-        content: "Some quick example text to build on the card title and make up the bulk of the card's content"
+        content: "Some quick example text to build on the card title and make up the bulk of the card's content",
+        visible: true
       },
       {
         type: "knitting",
         title: "Header",
         thumbnail: "https://d1a6t1943usoj7.cloudfront.net/v1/1a01ab15-bd66-4578-824a-cd3741daaa1e/medium/1470696788032-knitting_yarn_20160722_002_null.jpg",
         subtitle: "Primary card title",
-        content: "Some quick example text to build on the card title and make up the bulk of the card's content"
+        content: "Some quick example text to build on the card title and make up the bulk of the card's content",
+        visible: true
       },
       {
         type: "knitting",
         title: "Header",
         thumbnail: "https://d1a6t1943usoj7.cloudfront.net/v1/1a01ab15-bd66-4578-824a-cd3741daaa1e/medium/1470696788032-knitting_yarn_20160722_002_null.jpg",
         subtitle: "Primary card title",
-        content: "Some quick example text to build on the card title and make up the bulk of the card's content"
+        content: "Some quick example text to build on the card title and make up the bulk of the card's content",
+        visible: true
       },
       {
         type: "knitting",
         title: "Header",
         thumbnail: "https://d1a6t1943usoj7.cloudfront.net/v1/1a01ab15-bd66-4578-824a-cd3741daaa1e/medium/1470696788032-knitting_yarn_20160722_002_null.jpg",
         subtitle: "Primary card title",
-        content: "Some quick example text to build on the card title and make up the bulk of the card's content"
+        content: "Some quick example text to build on the card title and make up the bulk of the card's content",
+        visible: true
       },
       {
         type: "spinning",
         title: "Header",
         thumbnail: "https://d1a6t1943usoj7.cloudfront.net/v1/1a01ab15-bd66-4578-824a-cd3741daaa1e/medium/1470696788032-knitting_yarn_20160722_002_null.jpg",
         subtitle: "Primary card title",
-        content: "Some quick example text to build on the card title and make up the bulk of the card's content"
+        content: "Some quick example text to build on the card title and make up the bulk of the card's content",
+        visible: true
       },
       {
         type: "crochet",
         title: "Header",
         thumbnail: "https://d1a6t1943usoj7.cloudfront.net/v1/1a01ab15-bd66-4578-824a-cd3741daaa1e/medium/1470696788032-knitting_yarn_20160722_002_null.jpg",
         subtitle: "Primary card title",
-        content: "Some quick example text to build on the card title and make up the bulk of the card's content"
+        content: "Some quick example text to build on the card title and make up the bulk of the card's content",
+        visible: true
       },
       {
         type: "knitting",
         title: "Header",
         thumbnail: "https://d1a6t1943usoj7.cloudfront.net/v1/1a01ab15-bd66-4578-824a-cd3741daaa1e/medium/1470696788032-knitting_yarn_20160722_002_null.jpg",
         subtitle: "Primary card title",
-        content: "Some quick example text to build on the card title and make up the bulk of the card's content"
+        content: "Some quick example text to build on the card title and make up the bulk of the card's content",
+        visible: true
       },
       {
         type: "spinning",
         title: "Header",
         thumbnail: "https://d1a6t1943usoj7.cloudfront.net/v1/1a01ab15-bd66-4578-824a-cd3741daaa1e/medium/1470696788032-knitting_yarn_20160722_002_null.jpg",
         subtitle: "Primary card title",
-        content: "Some quick example text to build on the card title and make up the bulk of the card's content"
+        content: "Some quick example text to build on the card title and make up the bulk of the card's content",
+        visible: true
       },
       {
         type: "crochet",
         title: "Header",
         thumbnail: "https://d1a6t1943usoj7.cloudfront.net/v1/1a01ab15-bd66-4578-824a-cd3741daaa1e/medium/1470696788032-knitting_yarn_20160722_002_null.jpg",
         subtitle: "Primary card title",
-        content: "Some quick example text to build on the card title and make up the bulk of the card's content"
+        content: "Some quick example text to build on the card title and make up the bulk of the card's content",
+        visible: true
       },
       {
         type: "knitting",
         title: "Header",
         thumbnail: "https://d1a6t1943usoj7.cloudfront.net/v1/1a01ab15-bd66-4578-824a-cd3741daaa1e/medium/1470696788032-knitting_yarn_20160722_002_null.jpg",
         subtitle: "Primary card title",
-        content: "Some quick example text to build on the card title and make up the bulk of the card's content"
+        content: "Some quick example text to build on the card title and make up the bulk of the card's content",
+        visible: true
       },
       {
         type: "knitting",
         title: "Header",
         thumbnail: "https://d1a6t1943usoj7.cloudfront.net/v1/1a01ab15-bd66-4578-824a-cd3741daaa1e/medium/1470696788032-knitting_yarn_20160722_002_null.jpg",
         subtitle: "Primary card title",
-        content: "Some quick example text to build on the card title and make up the bulk of the card's content"
+        content: "Some quick example text to build on the card title and make up the bulk of the card's content",
+        visible: true
       },
       {
         type: "knitting",
         title: "Header",
         thumbnail: "https://d1a6t1943usoj7.cloudfront.net/v1/1a01ab15-bd66-4578-824a-cd3741daaa1e/medium/1470696788032-knitting_yarn_20160722_002_null.jpg",
         subtitle: "Primary card title",
-        content: "Some quick example text to build on the card title and make up the bulk of the card's content"
+        content: "Some quick example text to build on the card title and make up the bulk of the card's content",
+        visible: true
       }
     ];
 
@@ -104,10 +116,15 @@ export class LibraryComponent implements OnInit {
         }
     }
 
+    //let filterList = patternCards;
+
+
     ngOnInit() {}
 
 
-    setTypeOption(typeOption) {
+    filterClick(typeOption) {
+
+        this.resetDefaults();
     //this. because accessing filter inside method
     // >= 0 shorthand check that the parameter matches an item in the array
         let indexOfTypeOption = this.filter.type.options.indexOf(typeOption);
@@ -120,24 +137,51 @@ export class LibraryComponent implements OnInit {
             //this. because it refers to itself on the instance
             this.refreshList(indexOfTypeOption);
 
+
         }
 
     }
 
     refreshList(craftType) {
 
-        let filterList = [];
+        let type = '';
+
+
+        if (craftType == 0) {
+            type = 'knitting';
+        }
+        else if (craftType == 1) {
+            type = 'crochet';
+        }
+        else if (craftType == 2) {
+            type = 'spinning';
+        }
 
         //if the type of the next array item is
         for (let patternCard in this.patternCards) {
-            console.log(this.patternCards[patternCard]);
-            /*if (craftType = this.patternCard.type) {
-                filterList.push(this.patternCard);
-                console.log(this.patternCard);
-            */
+            //console.log(this.patternCards[patternCard].type);
 
+            if (type !== this.patternCards[patternCard].type) {
+                this.patternCards[patternCard].visible = false;
             }
+
+
         }
 
+    }
+
+    resetDefaults() {
+
+        for (let patternCard in this.patternCards) {
+
+            if (this.patternCards[patternCard].visible == false) {
+                this.patternCards[patternCard].visible = true;
+            }
+
+        }
 
     }
+
+
+
+}
