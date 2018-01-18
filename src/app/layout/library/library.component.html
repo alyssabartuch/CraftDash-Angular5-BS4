@@ -1,0 +1,41 @@
+<div [@routerTransition]>
+    <app-page-header [heading]="'Pattern Library'" [icon]="'fa-desktop'"></app-page-header>
+
+
+    <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group" role="group" aria-label="First group">
+        <button type="button" class="btn btn-secondary" *ngFor="let typeOption of filter.type.options" (click)="setTypeOption(typeOption)">{{ typeOption }}</button>
+      </div>
+      <div class="input-group">
+        <span class="input-group-addon btn-primary" id="btnGroupAddon2">Search</span>
+        <input type="text" class="form-control" placeholder="mittens, hat, etc." aria-describedby="btnGroupAddon2">
+      </div>
+    </div>
+
+    <div class="page-header">
+        <h1>Patterns</h1>
+        <hr>
+    </div>
+    <div class="row">
+
+        <div class="col-sm-4" *ngFor="let patternCard of patternCards">
+            <div class="card text-white mb-3">
+                <img class="card-img-top" [src]="patternCard.thumbnail" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title">{{ patternCard.title }} - {{ patternCard.type }}</h4>
+                    <h4 class="card-title">{{ patternCard.subtitle }}</h4>
+                    <p class="card-text">{{ patternCard.content }}</p>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+</div>

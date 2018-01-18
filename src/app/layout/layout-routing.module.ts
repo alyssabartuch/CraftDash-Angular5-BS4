@@ -12,10 +12,12 @@ const routes: Routes = [
             { path: 'charts', loadChildren: './charts/charts.module#ChartsModule' },
             { path: 'cheatsheet', loadChildren: './cheatsheet/cheatsheet.module#CheatsheetModule' },
             { path: 'forms', loadChildren: './form/form.module#FormModule' },
-            { path: 'bs-element', loadChildren: './bs-element/bs-element.module#BsElementModule' },
+            { path: 'library', loadChildren: './library/library.module#LibraryModule' },
             { path: 'web-resources', loadChildren: './web-resources/web-resources.module#WebResourcesModule' },
             { path: 'components', loadChildren: './bs-component/bs-component.module#BsComponentModule' },
-            { path: 'blank-page', loadChildren: './blank-page/blank-page.module#BlankPageModule' }
+            { path: 'blank-page', loadChildren: './blank-page/blank-page.module#BlankPageModule' },
+            { path: 'vocabulary', loadChildren: './vocabulary/vocabulary.module#VocabularyModule' },
+            { path: 'stitch-ref', loadChildren: './stitch-ref/stitch-ref.module#StitchRefModule' }
         ]
     }
 ];

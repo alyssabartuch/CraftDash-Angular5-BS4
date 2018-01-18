@@ -3,38 +3,30 @@
         <a routerLink="/dashboard" [routerLinkActive]="['router-link-active']" class="list-group-item">
             <i class="fa fa-fw fa-dashboard"></i>&nbsp;{{ 'Dashboard' | translate }}
         </a>
+
+        <a [routerLink]="['/library']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-file-text-o"></i>&nbsp;{{ 'Pattern Library' | translate }}
+        </a>
+
         <a [routerLink]="['/cheatsheet']" [routerLinkActive]="['router-link-active']" class="list-group-item">
             <i class="fa fa-fw fa-table"></i>&nbsp;{{ 'Cheat Sheets' | translate }}
         </a>
 
-        <!-->Go through and replace all references to 'grid' with 'stitch-ref'; create component and routing<-->
-        <a [routerLink]="['/grid']" [routerLinkActive]="['router-link-inactive']" class="list-group-item">
+        <a [routerLink]="['/vocabulary']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-quote-left"></i>&nbsp;{{ 'Vocabulary' | translate }}
+        </a>
+
+        <a [routerLink]="['/stitch-ref']" [routerLinkActive]="['router-link-active']" class="list-group-item">
             <i class="fa fa-youtube-play"></i>&nbsp;{{ 'Stitch Reference' | translate }}
         </a>
 
-        <!-->Go through and replace all references to 'bs-element' with 'pattern-library' <-->
-        <a [routerLink]="['/bs-element']" [routerLinkActive]="['router-link-active']" class="list-group-item">
-            <i class="fa fa-file-text-o"></i>&nbsp;{{ 'Pattern Library' | translate }}
-        </a>
-        <!-->Go through and replace all references to 'grid' with 'web-resources'<-->
         <a [routerLink]="['/web-resources']" [routerLinkActive]="['router-link-active']" class="list-group-item">
             <i class="fa fa-university"></i>&nbsp;{{ 'Web Resources' | translate }}
         </a>
 
-
-        <a [routerLink]="['/charts']" [routerLinkActive]="['router-link-active']" class="list-group-item">
-            <i class="fa fa-fw fa-bar-chart-o"></i>&nbsp;{{ 'Charts' | translate }}
-        </a>
-
-        <a [routerLink]="['/forms']" [routerLinkActive]="['router-link-active']" class="list-group-item">
-            <i class="fa fa-fw fa-edit"></i>&nbsp;{{ 'Forms' | translate }}
-        </a>
+        
 
 
-
-        <a [routerLink]="['/components']" [routerLinkActive]="['router-link-active']" class="list-group-item">
-            <i class="fa fa-th-list"></i>&nbsp;{{ 'Component' | translate }}
-        </a>
 
 
     </div>
