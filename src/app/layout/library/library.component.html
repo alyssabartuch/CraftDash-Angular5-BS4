@@ -16,26 +16,29 @@
         <h1>Patterns</h1>
         <hr>
     </div>
+
+
+
+
     <div class="row">
+        <ng-container *ngFor="let patternCard of patternCards">
+            <div class="col-sm-4" *ngIf="patternCard.visible">
+                <div class="card text-white mb-3">
+                    <img class="card-img-top" [src]="patternCard.thumbnail" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">{{ patternCard.title }} - {{ patternCard.type }}</h4>
+                        <h4 class="card-title">{{ patternCard.subtitle }}</h4>
+                        <p class="card-text">{{ patternCard.content }}</p>
+                    </div>
 
-        <div class="col-sm-4" *ngFor="let patternCard of patternCards">
-            <div class="card text-white mb-3" *ngIf="patternCard.visible">
-                <img class="card-img-top" [src]="patternCard.thumbnail" alt="Card image cap">
-                <div class="card-block">
-                    <h4 class="card-title">{{ patternCard.title }} - {{ patternCard.type }}</h4>
-                    <h4 class="card-title">{{ patternCard.subtitle }}</h4>
-                    <p class="card-text">{{ patternCard.content }}</p>
                 </div>
-
             </div>
-        </div>
-
-
-
-
-
-
-
-
+        </ng-container>
     </div>
+
+
+
+
+
+
 </div>
