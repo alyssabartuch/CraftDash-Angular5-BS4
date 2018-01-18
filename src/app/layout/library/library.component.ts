@@ -130,7 +130,7 @@ export class LibraryComponent implements OnInit {
 
         //if the type of the next array item is
         for (let patternCard in this.patternCards) {
-            console.log(patternCard[patternCard.type]);
+            console.log(this.patternCards[patternCard]);
             /*if (craftType = this.patternCard.type) {
                 filterList.push(this.patternCard);
                 console.log(this.patternCard);
@@ -141,7 +141,3 @@ export class LibraryComponent implements OnInit {
 
 
     }
-
-
-
-}
