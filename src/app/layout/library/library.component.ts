@@ -14,7 +14,7 @@ export class LibraryComponent implements OnInit {
       {
         type: "knitting",
         title: "Header",
-        thumbnail: "https://d1a6t1943usoj7.cloudfront.net/v1/1a01ab15-bd66-4578-824a-cd3741daaa1e/medium/1470696788032-knitting_yarn_20160722_002_null.jpg",
+        thumbnail: "https://www.cbronline.com/wp-content/uploads/2016/07/what-is-yarn.jpg",
         subtitle: "Primary card title",
         content: "Some quick example text to build on the card title and make up the bulk of the card's content",
         visible: true
@@ -22,7 +22,7 @@ export class LibraryComponent implements OnInit {
       {
         type: "knitting",
         title: "Header",
-        thumbnail: "https://d1a6t1943usoj7.cloudfront.net/v1/1a01ab15-bd66-4578-824a-cd3741daaa1e/medium/1470696788032-knitting_yarn_20160722_002_null.jpg",
+        thumbnail: "https://www.cbronline.com/wp-content/uploads/2016/07/what-is-yarn.jpg",
         subtitle: "Primary card title",
         content: "Some quick example text to build on the card title and make up the bulk of the card's content",
         visible: true
@@ -30,7 +30,7 @@ export class LibraryComponent implements OnInit {
       {
         type: "knitting",
         title: "Header",
-        thumbnail: "https://d1a6t1943usoj7.cloudfront.net/v1/1a01ab15-bd66-4578-824a-cd3741daaa1e/medium/1470696788032-knitting_yarn_20160722_002_null.jpg",
+        thumbnail: "https://www.cbronline.com/wp-content/uploads/2016/07/what-is-yarn.jpg",
         subtitle: "Primary card title",
         content: "Some quick example text to build on the card title and make up the bulk of the card's content",
         visible: true
@@ -38,7 +38,7 @@ export class LibraryComponent implements OnInit {
       {
         type: "knitting",
         title: "Header",
-        thumbnail: "https://d1a6t1943usoj7.cloudfront.net/v1/1a01ab15-bd66-4578-824a-cd3741daaa1e/medium/1470696788032-knitting_yarn_20160722_002_null.jpg",
+        thumbnail: "https://www.cbronline.com/wp-content/uploads/2016/07/what-is-yarn.jpg",
         subtitle: "Primary card title",
         content: "Some quick example text to build on the card title and make up the bulk of the card's content",
         visible: true
@@ -46,7 +46,7 @@ export class LibraryComponent implements OnInit {
       {
         type: "spinning",
         title: "Header",
-        thumbnail: "https://d1a6t1943usoj7.cloudfront.net/v1/1a01ab15-bd66-4578-824a-cd3741daaa1e/medium/1470696788032-knitting_yarn_20160722_002_null.jpg",
+        thumbnail: "http://cdn3.craftsy.com/blog/wp-content/uploads/2014/04/twoply-sm.jpg",
         subtitle: "Primary card title",
         content: "Some quick example text to build on the card title and make up the bulk of the card's content",
         visible: true
@@ -54,7 +54,15 @@ export class LibraryComponent implements OnInit {
       {
         type: "crochet",
         title: "Header",
-        thumbnail: "https://d1a6t1943usoj7.cloudfront.net/v1/1a01ab15-bd66-4578-824a-cd3741daaa1e/medium/1470696788032-knitting_yarn_20160722_002_null.jpg",
+        thumbnail: "https://fthmb.tqn.com/VEmtmtKNP2slG-0d-59eZGyoxFk=/960x0/filters:no_upscale()/97659406-56a1e5305f9b58b7d0c46191.jpg",
+        subtitle: "Primary card title",
+        content: "Some quick example text to build on the card title and make up the bulk of the card's content",
+        visible: true
+      },
+      {
+        type: "crochet",
+        title: "Header",
+        thumbnail: "https://fthmb.tqn.com/VEmtmtKNP2slG-0d-59eZGyoxFk=/960x0/filters:no_upscale()/97659406-56a1e5305f9b58b7d0c46191.jpg",
         subtitle: "Primary card title",
         content: "Some quick example text to build on the card title and make up the bulk of the card's content",
         visible: true
@@ -62,7 +70,7 @@ export class LibraryComponent implements OnInit {
       {
         type: "knitting",
         title: "Header",
-        thumbnail: "https://d1a6t1943usoj7.cloudfront.net/v1/1a01ab15-bd66-4578-824a-cd3741daaa1e/medium/1470696788032-knitting_yarn_20160722_002_null.jpg",
+        thumbnail: "https://www.cbronline.com/wp-content/uploads/2016/07/what-is-yarn.jpg",
         subtitle: "Primary card title",
         content: "Some quick example text to build on the card title and make up the bulk of the card's content",
         visible: true
@@ -70,7 +78,7 @@ export class LibraryComponent implements OnInit {
       {
         type: "spinning",
         title: "Header",
-        thumbnail: "https://d1a6t1943usoj7.cloudfront.net/v1/1a01ab15-bd66-4578-824a-cd3741daaa1e/medium/1470696788032-knitting_yarn_20160722_002_null.jpg",
+        thumbnail: "http://cdn3.craftsy.com/blog/wp-content/uploads/2014/04/twoply-sm.jpg",
         subtitle: "Primary card title",
         content: "Some quick example text to build on the card title and make up the bulk of the card's content",
         visible: true
@@ -78,7 +86,7 @@ export class LibraryComponent implements OnInit {
       {
         type: "crochet",
         title: "Header",
-        thumbnail: "https://d1a6t1943usoj7.cloudfront.net/v1/1a01ab15-bd66-4578-824a-cd3741daaa1e/medium/1470696788032-knitting_yarn_20160722_002_null.jpg",
+        thumbnail: "https://fthmb.tqn.com/VEmtmtKNP2slG-0d-59eZGyoxFk=/960x0/filters:no_upscale()/97659406-56a1e5305f9b58b7d0c46191.jpg",
         subtitle: "Primary card title",
         content: "Some quick example text to build on the card title and make up the bulk of the card's content",
         visible: true
@@ -86,7 +94,15 @@ export class LibraryComponent implements OnInit {
       {
         type: "knitting",
         title: "Header",
-        thumbnail: "https://d1a6t1943usoj7.cloudfront.net/v1/1a01ab15-bd66-4578-824a-cd3741daaa1e/medium/1470696788032-knitting_yarn_20160722_002_null.jpg",
+        thumbnail: "https://www.cbronline.com/wp-content/uploads/2016/07/what-is-yarn.jpg",
+        subtitle: "Primary card title",
+        content: "Some quick example text to build on the card title and make up the bulk of the card's content",
+        visible: true
+      },
+      {
+        type: "spinning",
+        title: "Header",
+        thumbnail: "http://cdn3.craftsy.com/blog/wp-content/uploads/2014/04/twoply-sm.jpg",
         subtitle: "Primary card title",
         content: "Some quick example text to build on the card title and make up the bulk of the card's content",
         visible: true
@@ -94,7 +110,7 @@ export class LibraryComponent implements OnInit {
       {
         type: "knitting",
         title: "Header",
-        thumbnail: "https://d1a6t1943usoj7.cloudfront.net/v1/1a01ab15-bd66-4578-824a-cd3741daaa1e/medium/1470696788032-knitting_yarn_20160722_002_null.jpg",
+        thumbnail: "https://www.cbronline.com/wp-content/uploads/2016/07/what-is-yarn.jpg",
         subtitle: "Primary card title",
         content: "Some quick example text to build on the card title and make up the bulk of the card's content",
         visible: true
@@ -102,7 +118,7 @@ export class LibraryComponent implements OnInit {
       {
         type: "knitting",
         title: "Header",
-        thumbnail: "https://d1a6t1943usoj7.cloudfront.net/v1/1a01ab15-bd66-4578-824a-cd3741daaa1e/medium/1470696788032-knitting_yarn_20160722_002_null.jpg",
+        thumbnail: "https://www.cbronline.com/wp-content/uploads/2016/07/what-is-yarn.jpg",
         subtitle: "Primary card title",
         content: "Some quick example text to build on the card title and make up the bulk of the card's content",
         visible: true

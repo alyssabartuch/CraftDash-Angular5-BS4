@@ -1,6 +1,34 @@
 <div [@routerTransition]>
     <app-page-header [heading]="'Stitch Reference'" [icon]="'fa-youtube-play'"></app-page-header>
 
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card" *ngFor="let stitchRef of stitchRefs">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h5>{{ stitchRef.title }}</h5>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
 

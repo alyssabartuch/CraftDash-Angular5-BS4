@@ -10,7 +10,16 @@ import { routerTransition } from '../../router.animations';
 export class StitchRefComponent implements OnInit {
     constructor() {}
 
-    
+    stitchRefs = [
+      {
+        title: 'slip knot',
+        embed: 'https://www.youtube.com/embed/fFzWoXPAzFM'
+      },
+      {
+        title: 'long tail cast-on',
+        embed: 'https://www.youtube.com/embed/sN9cNEozOLc'
+      }
+    ]
 
     ngOnInit() {}
 
