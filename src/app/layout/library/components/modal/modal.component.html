@@ -1,0 +1,36 @@
+<div class="row">
+    <div class="col-sm-12">
+        <div class="card mb-3">
+
+            <!-- Large modal -->
+            <div class="card-body">
+                <button class="btn btn-primary btn-lg btn-block" (click)="open(content)"><i class="fa fa-plus-square"></i> Add New Resource</button>
+                <ng-template #content let-c="close" let-d="dismiss">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Add a new web resource</h4>
+                        <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <app-library-form></app-library-form>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" (click)="c('Close click')">Close</button>
+                    </div>
+                </ng-template>
+            </div>
+
+        </div>
+    </div>
+</div>

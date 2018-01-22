@@ -1,0 +1,39 @@
+<div class="container">
+    <div [hidden]="submitted">
+
+        <form #libraryForm="ngForm" (ngSubmit)="onSubmit()">
+
+            <fieldset class="form-group">
+                <label for="title">title</label>
+                <input class="form-control" id="title"
+               required
+               [(ngModel)]="model.title" name="title"
+               placeholder="{{ defaultModel.title }}">
+            </fieldset>
+
+            <fieldset class="form-group">
+                <label for="subtitle">Description</label>
+                <textarea class="form-control" rows="3" id="subtitle" required [(ngModel)]="model.subtitle" name="subtitle"
+                 placeholder="{{ defaultModel.subtitle }}"></textarea>
+            </fieldset>
+
+            <fieldset class="form-group">
+                <label for="webAddress">Web Address</label>
+                <input class="form-control" id="webAddress" required [(ngModel)]="model.webAddress" name="webAddress"
+                placeholder="{{ defaultModel.webAddress }}">
+            </fieldset>
+
+            <fieldset class="form-group">
+                <label for="exampleInputFile">Thumbnail Image</label>
+                <input type="file" class="form-control-file" id="exampleInputFile">
+            </fieldset>
+
+
+
+            <button type="submit" class="btn btn-primary" (click)="formSubmit()">Submit Button</button>
+            <button type="reset" class="btn btn-secondary">Reset Button</button>
+
+        </form>
+
+    </div>
+</div>
