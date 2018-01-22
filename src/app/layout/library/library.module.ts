@@ -5,8 +5,11 @@ import { LibraryRoutingModule } from './library-routing.module';
 import { LibraryComponent } from './library.component';
 import { PageHeaderModule } from './../../shared';
 
+import {ModalComponent} from './components';
+import { LibraryFormComponent } from './components/library-form/library-form.component';
+
 @NgModule({
     imports: [CommonModule, LibraryRoutingModule, PageHeaderModule],
-    declarations: [LibraryComponent]
+    declarations: [LibraryComponent, ModalComponent, LibraryFormComponent]
 })
 export class LibraryModule {}
