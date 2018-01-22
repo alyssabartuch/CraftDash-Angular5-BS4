@@ -1,7 +1,7 @@
 <div [@routerTransition]>
     <app-page-header [heading]="'Pattern Library'" [icon]="'fa-desktop'"></app-page-header>
 
-    <app-modal></app-modal>
+
 
     <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
       <div class="btn-group" role="group" aria-label="First group">
@@ -24,15 +24,9 @@
     <div class="row">
 
         <div class="col-sm-4">
-            <div class="card text-white mb-3">
+            <div class="card">
                 <img class="card-img-top" src="http://sunsetpilatesbali.com/wp-content/uploads/2016/06/placeholder-1200x900.jpg" alt="Card image cap">
-                <div class="card-block">
-                    <button class="btn btn-primary btn-lg btn-block">
-                        Upload Pattern
-                    </button>
-
-                </div>
-
+                <app-modal></app-modal>
             </div>
         </div>
 
