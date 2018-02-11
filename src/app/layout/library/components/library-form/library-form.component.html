@@ -12,19 +12,23 @@
             </fieldset>
 
             <fieldset class="form-group">
-                <label for="subtitle">Description</label>
-                <textarea class="form-control" rows="3" id="subtitle" required [(ngModel)]="model.subtitle" name="subtitle"
-                 placeholder="{{ defaultModel.subtitle }}"></textarea>
+                <label for="description">description</label>
+                <textarea class="form-control" rows="3" id="description" required [(ngModel)]="model.description" name="description"
+                 placeholder="{{ defaultModel.description }}"></textarea>
             </fieldset>
 
             <fieldset class="form-group">
-                <label for="webAddress">Web Address</label>
-                <input class="form-control" id="webAddress" required [(ngModel)]="model.webAddress" name="webAddress"
-                placeholder="{{ defaultModel.webAddress }}">
+                <label for="craftType">craft type</label>
+                <input type="radio" class="form-control" id="craftType" [(ngModel)]="model.craftType" name="craftType"> knitting<br>
+                <input type="radio" class="form-control" id="craftType" [(ngModel)]="model.craftType" name="craftType"> crochet<br>
+                <input type="radio" class="form-control" id="craftType" [(ngModel)]="model.craftType" name="craftType"> spinning
+
             </fieldset>
 
+
+
             <fieldset class="form-group">
-                <label for="exampleInputFile">Thumbnail Image</label>
+                <label for="exampleInputFile">pattern file</label>
                 <input type="file" class="form-control-file" id="exampleInputFile">
             </fieldset>
 

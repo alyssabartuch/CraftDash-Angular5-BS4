@@ -10,17 +10,17 @@ export class LibraryFormComponent implements OnInit {
   constructor() { }
 
   defaultModel = {
-      title: 'ravelry',
-      subtitle: 'Ravelry is a community site, an organizational tool, and a yarn & pattern database for knitters and crocheters.',
-      webAddress: 'https://www.ravelry.com/',
-      img: 'https://style-cdn.ravelrycache.com/images/splash/ravelry-logo-81r-300x.png'
+      title: 'toe up socks',
+      description: 'This is a toe up sock pattern knit in fingering weight yarn.',
+      craftType: ['knitting', 'crochet', 'spinning'],
+      file: ''
   };
 
   model = {
       title: '',
-      subtitle: '',
-      webAddress: '',
-      img: ''
+      description: '',
+      craftType: '',
+      file: ''
   };
 
   submitted = false;
